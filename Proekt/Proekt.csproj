@@ -79,7 +79,7 @@
     <Content Include="css\uslugi.css" />
     <Content Include="Uslugi.html" />
     <Content Include="Web.config" />
-    <Content Include="Za nas.html" />
+    <Content Include="Zanas.html" />
     <Content Include="css\zanas.css" />
     <Content Include="АвионскиБилети.html" />
     <Content Include="css\Билети.css" />
