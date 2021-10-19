@@ -75,7 +75,7 @@
     <Content Include="images\plane-img.png" />
     <Content Include="js\Proba.js" />
     <Content Include="css\Proekt.css" />
-    <Content Include="Proekt1.html" />
+    <Content Include="index.html" />
     <Content Include="css\uslugi.css" />
     <Content Include="Uslugi.html" />
     <Content Include="Web.config" />
