@@ -1,23 +1,33 @@
 ﻿body {
-    margin:3px;
+    margin: 1px;
+  
 }
 
 .Avionski {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-emphasis-color: black;
     font-size: 16px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #0000ff;
 }
 
 .Vizi {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-emphasis-color: black;
     font-size: 16px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #0000ff;
 }
 
 .Osiguruvane {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-emphasis-color: black;
     font-size: 16px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #0000ff;
 }
 
 h4 {
@@ -25,6 +35,9 @@ h4 {
     font-size: 17px;
     margin-top: 16px;
     margin-left: 2px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #0000ff;
 }
 .btn {
     background-color: DodgerBlue;
@@ -40,4 +53,11 @@ h4 {
 h3 {
     margin-top: 24px;
     margin-left: 2px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 34px;
 }

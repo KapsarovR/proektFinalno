@@ -67,11 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\aerodrom.jpg" />
     <Content Include="images\Avion.png" />
     <Content Include="images\avionski-bileti-amerika.jpg" />
     <Content Include="images\avionski-bileti-avstralija.jpg" />
     <Content Include="images\avionski-bileti-evropa.jpg" />
     <Content Include="images\avionski-bileti-kanada.jpg" />
+    <Content Include="images\eurolink-grawe.jpg" />
+    <Content Include="images\Nebo.jpg" />
     <Content Include="images\plane-img.png" />
     <Content Include="js\Proba.js" />
     <Content Include="css\Proekt.css" />
@@ -94,10 +97,13 @@
     <None Include="Properties\PublishProfiles\KapsarAIR - Web Deploy2.pubxml" />
     <None Include="Properties\PublishProfiles\KapsarAIR - Web Deploy3.pubxml" />
     <None Include="Properties\PublishProfiles\KapsarAIR - Web Deploy4.pubxml" />
+    <None Include="Properties\PublishProfiles\KapsarAIR - Web Deploy5.pubxml" />
+    <None Include="Properties\PublishProfiles\KapsarAIR - Web Deploy6.pubxml" />
     <None Include="Properties\PublishProfiles\KapsarAIR1 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\kapsaravio - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\kapsaravio - Web Deploy1.pubxml" />
     <None Include="Properties\PublishProfiles\kapsaravio - Web Deploy2.pubxml" />
+    <None Include="Properties\PublishProfiles\kapsaravio - Web Deploy3.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
