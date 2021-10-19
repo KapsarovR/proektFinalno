@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Авионски Билети</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="css/Билети.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Proekt1.html">Почетна</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="АвионскиБилети.html">Резервирај Билети</a>
+                    </li>
+                    <!--<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            АКТУЕЛНИ ПОНУДИ
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">ПАТНИЧКО ОСИГУРУВАЊЕ</a></li>
+                            <li><a class="dropdown-item" href="Proekt1.html">ПРОМОЦИЈА АВИОНСКИ БИЛЕТИ</a></li>
+                        </ul>
+                    </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link " href="Uslugi.html" tabindex="-1">Услуги</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="Za nas.html" tabindex="-1">За нас</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <fieldset id="Kreiraj">
+        <!--<h4>Kreiraj Patnik</h4>-->
+        <table class="table-primary" style="width: 300px; height: 310px;" border="1">
+            <tbody>
+                <tr class="table-primary">
+                    <td class="table-primary">
+                        <div class="patnik">
+                            <label> <b>Kreiraj Patnik</b> </label>
+                        </div>
+
+                        <div>
+                            <label for="FistName">FistName:</label>
+                            <input name="name" value="" placeholder="Vnesete ime" maxlength="15" id="FistName" required="" type="text">
+                        </div>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <label for="LastName">LastName:</label>
+                            <input name="LastName" value="" placeholder="Vnesete prezime" maxlength="15" id="LastName" required="" type="text">
+                        </div>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <label for="Birth">Date of birth:</label>
+                            <input value="" id="Birth" type="date">
+                        </div>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Passport_Number">Passport_Number :</label>
+                        <input value="" id="Passport_Number" maxlength="8" type="text"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!--<button id="KreirajLet">Kreiraj Patnik</button><br>-->
+                        <button id="KreirajLet" class="btn btn-primary" type="button">Kreiraj Patnik</button>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+
+
+
+
+    <!--<fieldset id="let">
+        <legend> Kreiraj let </legend>
+
+        Flight_Number :<br><input type="text" id="BrojLet" name="Name"> <br>
+        Departure :<br><input type="text" id="vreme"> <br>
+        Destination :<br><input type="text" id="Destination"> <br>
+        Departure_date :<br /><input type="date" id="poletuvajne" /><br />
+        Return_date :<br /><input type="date" id="sletuvanje" /><br />
+        CarryOn :<br /><input type="number" id="bagas" /><br />
+        Trolley : <br /><input type="number" id="trolley" /><br />
+        CheckIn : <br /><input type="text" id="CheckIn" /><br />
+
+        PassangerId<br><input type="number" id="PassangerId"> <br>
+
+        <button id="KreirajLet1">Kreiraj Let</button>-->
+    <!--</fieldset>-->
+    <fieldset id="let">
+        <!--<h4> Kreiraj let </h4>-->
+        <table class="tabela1" style="width: 81%" border="1">
+            <tbody>
+                <tr>
+                    <td>
+                        <label class="kere"> <b>Kreiraj Let</b> </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Flight_Number:</label><br>
+                        <input id="BrojLet" name="Name" maxlength="8" type="text"> <br>
+                    </td>
+                    <td>
+                        <label>Departure:</label><br>
+                        <input id="vreme" type="text"><br>
+                    </td>
+                    <td>
+                        <label>Destination:</label><br>
+                        <input id="Destination" type="text"><br>
+                    </td>
+                    <td>
+                        <label>Departure_date:</label><br>
+                        <input id="poletuvajne" type="date"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Return_date:</label><br>
+                        <input id="sletuvanje" type="date"><br>
+                    </td>
+                    <td>
+                        <label>CarryOn:</label><br>
+                        <input id="bagas" type="number"><br>
+                    </td>
+                    <td>
+                        <label>Trolley:</label><br>
+                        <input id="trolley" type="number"><br>
+                    </td>
+                    <td>
+                        <label>CheckIn:</label> <br>
+                        <input id="CheckIn" type="text"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>PassangerId:</label> <br>
+                        <input id="PassangerId" type="number"> <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <!--<td> <button id="KreirajLet1">Kreiraj Let</button> </td>-->
+                    <td>
+                        <button id="KreirajLet1" class="btn btn-primary" type="button">Kreiraj Let</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+
+
+    <!--<button class="button"> <a href="Proekt1.html">Back</a></button>
+    <button id="button" class="btn btn-outline-danger"><a href="Proekt1.html">Back</a></button>-->
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/Proba.js"></script>
+
+</body>
+</html>

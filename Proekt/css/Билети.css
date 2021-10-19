@@ -1,0 +1,58 @@
+﻿body {
+}
+#Kreiraj {
+    margin-left: 1cm;
+    margin-top: 10%;
+    margin-bottom: 4px;
+    margin-right: 4em;
+}
+
+#let {
+    margin-left: 11cm;
+    margin-top: 10%;
+    margin-bottom: 4px;
+    margin-right: 4em;
+    margin-top: -260px;
+}
+.patnik {
+    margin: 11px;
+    color: black;
+    font-size: 25px;
+    margin-top: 23px;
+}
+.kere {
+    color: black;
+    margin: 18px;
+    font-size: 25px;
+    margin-top: 19px;
+}
+#Passport_Number {
+    width:130px;
+}
+input {
+    border: 1px solid #004eff;
+    margin: 5px;
+}
+.tabela1 {
+    margin-top: -106px;
+    width: 81%;
+    height: 362px;
+    margin-left: -28px;
+}
+#button {
+    font-size: 19px;
+    margin: 56px;
+    color: black;
+   
+}
+#KreirajLet1 {
+    margin-top: 14px;
+    margin: 5px;
+}
+#KreirajLet {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+label{
+    margin:5px;
+}

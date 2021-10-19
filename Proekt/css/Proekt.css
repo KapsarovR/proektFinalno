@@ -1,0 +1,91 @@
+﻿body {
+    /*background: #5ABCF5 /*none no-repeat scroll 0 0*//*;*/
+    /*background-image: url('images/plane-img.png');*/
+    /*background-position: 100px 40px 50px;*/
+
+    font-size: 14px;
+    line-height: -9px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden !important;
+}
+
+.cenibileti {
+    margin: 18px;
+    font-size: 12px;
+    color: red;
+    margin-top: 0px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 34px;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2  {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.destinacija {
+    text-align: center;
+    color: #800080 ;
+    font-size: 16px;
+    margin-top: 44px
+}
+
+.bilet{
+    text-align: center;
+    
+}
+#Kreiraj {
+    margin-left: 1cm;
+    margin-top: 10%;
+    margin-bottom: 4px;
+    margin-right: 4em;
+}
+
+#let {
+    margin-left: 11cm;
+    margin-top: 10%;
+    margin-bottom: 4px;
+    margin-right: 4em;
+    margin-top: -260px;
+}
+
+
+.Austija {
+ 
+    margin-left: 400px;
+    margin-top: -522px;
+}
+.Europa {
+
+    margin-left: 803px;
+    margin-top: -526px;
+}
+
+.Canada {
+ 
+    margin-top: -525px;
+    margin-left: 1228px;
+}
+/*#demo {
+    background: #CE5937;
+    background: -moz-linear-gradient(-45deg, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+    background: -webkit-linear-gradient(-45deg, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+    background: linear-gradient(135deg, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+}*/
+ul{
+    margin: 10px
+}
